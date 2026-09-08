@@ -126,63 +126,13 @@ Os calculos realizados sao salvos automaticamente no navegador (localStorage). S
 
 ## Prints da Aplicacao
 
-### Tela Principal - Modo Claro
+### Modo Claro
 
 ![Modo Claro](docs/prints/modo-claro.png)
 
-- Fundo verde-escuro solido
-- Card principal branco com sombra
-- Campos de entrada com bordas cinza
-- Botao verde "Calcular IMC"
-
-### Tela Principal - Modo Escuro
+### Modo Escuro
 
 ![Modo Escuro](docs/prints/modo-escuro.png)
-
-- Fundo verde-floresta
-- Card principal verde-escuro
-- Botao verde-claro "Calcular IMC"
-
-### Resultado do Calculo
-
-![Resultado](docs/prints/resultado.png)
-
-- Valor do IMC exibido em verde
-- Classificacao com bolinha colorida indicando a faixa
-- Barra de progresso com indicador posicionado
-
-### Mensagem de Erro
-
-![Erro](docs/prints/erro.png)
-
-- Mensagem vermelha abaixo dos campos
-- Texto descritivo do erro
-
-### Historico de Calculos
-
-![Historico](docs/prints/historico.png)
-
-- Lista com os ultimos 10 calculos
-- Cada item exibe: peso, altura, IMC e classificacao
-- Classificacao com cor de fundo correspondente
-
-### Layout Mobile
-
-![Mobile](docs/prints/mobile.png)
-
-- Layout adaptado para telas pequenas
-- Campos e botoes empilhados verticalmente
-
----
-
-## Como Adicionar Prints
-
-1. Abra `index.html` no navegador
-2. Pressione `F12` para abrir as ferramentas de desenvolvedor
-3. Pressione `Ctrl+Shift+M` para ativar o modo responsivo
-4. Ajuste o tamanho da tela conforme necessario
-5. Pressione `Ctrl+Shift+S` para salvar um screenshot
-6. Salve o arquivo em `docs/prints/` com o nome correspondente
 
 ---
 
