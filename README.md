@@ -126,8 +126,3 @@ Os calculos realizados sao salvos automaticamente no navegador (localStorage). S
 
 ## Prints da Aplicacao
 
-### Modo Claro
-
-![Modo Claro](docs/prints/modo-claro.png)
-
-
