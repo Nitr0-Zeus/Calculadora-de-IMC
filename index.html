@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+            <span class="theme-icon">Claro</span>
+        </button>
+
+        <header class="header">
+            <h1 class="header-title">Calculadora de IMC</h1>
+            <p class="header-subtitle">Calcule seu IMC com base no peso e altura</p>
+        </header>
+
+        <main class="main-card">
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="peso" class="input-label">Peso</label>
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="peso" 
+                            class="input-field" 
+                            placeholder="75"
+                            inputmode="decimal"
+                            autocomplete="off"
+                        >
+                        <span class="input-suffix">kg</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="altura" class="input-label">Altura</label>
+                    <div class="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="altura" 
+                            class="input-field" 
+                            placeholder="1,75"
+                            inputmode="decimal"
+                            autocomplete="off"
+                        >
+                        <span class="input-suffix">m</span>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-primary" id="calcularBtn">
+                        Calcular IMC
+                    </button>
+                    <button class="btn btn-secondary" id="limparBtn">
+                        Limpar
+                    </button>
+                </div>
+            </div>
+
+            <div class="result-section hidden" id="resultSection">
+                <div class="result-header">Seu resultado</div>
+                <div class="result-value" id="resultValue">0,00</div>
+                <div class="result-classification" id="resultClassification">
+                    <span class="classification-dot" id="classificationDot"></span>
+                    <span class="classification-text" id="classificationText">Peso normal</span>
+                </div>
+                <div class="gauge-container">
+                    <div class="gauge-bar">
+                        <div class="gauge-indicator" id="gaugeIndicator"></div>
+                    </div>
+                    <div class="gauge-labels">
+                        <span>Abaixo do peso</span>
+                        <span>Peso normal</span>
+                        <span>Sobrepeso</span>
+                        <span>Obesidade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="error-message hidden" id="errorMessage">
+                <span class="error-text" id="errorText"></span>
+            </div>
+        </main>
+
+        <section class="history-section" id="historySection">
+            <h2 class="history-title">Historico</h2>
+            <div class="history-list" id="historyList">
+                <p class="history-empty">Nenhum calculo realizado ainda.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>

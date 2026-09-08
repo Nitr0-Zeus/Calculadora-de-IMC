@@ -1,0 +1,22 @@
+# IDEs e Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node (caso use no futuro)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
+# Arquivos temporarios
+*.tmp
+*.temp
