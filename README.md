@@ -122,7 +122,3 @@ Os calculos realizados sao salvos automaticamente no navegador (localStorage). S
 - Microsoft Edge 80+
 - Safari 13+
 
----
-
-## Prints da Aplicacao
-
