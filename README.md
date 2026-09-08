@@ -130,12 +130,4 @@ Os calculos realizados sao salvos automaticamente no navegador (localStorage). S
 
 ![Modo Claro](docs/prints/modo-claro.png)
 
-### Modo Escuro
 
-![Modo Escuro](docs/prints/modo-escuro.png)
-
----
-
-## Licenca
-
-Este projeto e de uso livre para fins educacionais e pessoais.
